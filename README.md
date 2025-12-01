@@ -131,9 +131,9 @@ The following recordings demonstrate the app successfully detecting the platform
 
 ## 7. Verification Checklist
 
-- [ ] **Android:** App logs "Android detected — reading directly from bundle".
-- [ ] **iOS:** App logs "iOS detected — copying file out of bundle".
-- [ ] **Both:** Final log shows "File read successfully!" with the text content.
+- [x] **Android:** App logs "Android detected — reading directly from bundle".
+- [x] **iOS:** App logs "iOS detected — copying file out of bundle".
+- [x] **Both:** Final log shows "File read successfully!" with the text content.
 
 ### Conclusion
 This setup validates the documentation changes for `filesystemlegacy.mdx`, confirming that:
