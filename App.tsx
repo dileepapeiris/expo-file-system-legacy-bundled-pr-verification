@@ -52,6 +52,18 @@ export default function App() {
           await FileSystem.deleteAsync(destFile);
         }
 
+        await FileSystem.copyAsync({
+          from: bundleFile,
+          to: destFile,
+        });
+
+        addLog("Copy success!");
+        fileToRead = destFile;
+      } else {
+        addLog(
+          "Android detected — reading directly from bundle (no copy needed)."
+        );
+      }
   return (
   );
 }
