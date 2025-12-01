@@ -37,6 +37,21 @@ export default function App() {
         addLog("File not found in native bundle");
         return;
       }
+
+      let fileToRead = bundleFile;
+
+      if (Platform.OS === "ios") {
+        addLog("iOS detected — copying file out of bundle (read-only)…");
+
+        const destFile = FileSystem.documentDirectory + fileName;
+        addLog(`Destination: ${destFile}`);
+
+        const destInfo = await FileSystem.getInfoAsync(destFile);
+        if (destInfo.exists) {
+          addLog("Deleting old file from documentDirectory...");
+          await FileSystem.deleteAsync(destFile);
+        }
+
   return (
   );
 }
