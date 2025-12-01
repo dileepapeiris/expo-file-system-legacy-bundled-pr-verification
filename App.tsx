@@ -104,5 +104,26 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: "#F5F5F5" },
+  header: {
+    padding: 20,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    borderBottomWidth: 1,
+    borderBottomColor: "#ccc",
+    paddingTop: 50,
+  },
+  title: { fontSize: 20, fontWeight: "bold", marginBottom: 15 },
+  logContainer: { flex: 1, padding: 15 },
+  logText: {
+    fontFamily: "monospace",
+    fontSize: 12,
+    color: "#333",
+    backgroundColor: "#fff",
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 8,
+    borderLeftColor: "green",
+    borderLeftWidth: 4,
   },
 });
