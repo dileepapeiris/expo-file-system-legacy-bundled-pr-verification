@@ -82,6 +82,24 @@ export default function App() {
   };
 
   return (
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Native Bundle File Reader</Text>
+        <Button
+          title={loading ? "Processing..." : "Read Native File"}
+          onPress={readNativeFile}
+          disabled={loading}
+        />
+      </View>
+
+      <ScrollView style={styles.logContainer}>
+        {logs.map((log, i) => (
+          <Text key={i} style={styles.logText}>
+            {log}
+          </Text>
+        ))}
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
