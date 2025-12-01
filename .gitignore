@@ -1,0 +1,27 @@
+# Node
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+.expo/web/cache/
+.expo/web/report/
+
+# Metro bundler
+.cache/
+dist/
+web-build/
+web-dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
