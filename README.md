@@ -122,10 +122,12 @@ The following recordings demonstrate the app successfully detecting the platform
 
 | Platform | Recording |
 | :--- | :--- |
-| **Android** | [Watch Android Verification](https://github.com/user-attachments/assets/8b67eca5-4896-4b5e-a63e-129bd50a4aa3) |
-| **iOS** | [Watch iOS Verification](https://github.com/user-attachments/assets/8234cc5f-3969-42d3-8b12-a34b4b4c3b12) |
+| **Android** | <video src="https://github.com/user-attachments/assets/8b67eca5-4896-4b5e-a63e-129bd50a4aa3" controls width="380"></video> |
+| **iOS** | <video src="https://github.com/user-attachments/assets/8234cc5f-3969-42d3-8b12-a34b4b4c3b12" controls width="380"></video> |
 
 ---
+
+
 
 ## 7. Verification Checklist
 
