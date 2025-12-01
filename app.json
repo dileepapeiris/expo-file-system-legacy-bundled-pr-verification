@@ -12,6 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "expo": {
+      "assetBundlePatterns": ["**/*"]
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.dileepapeiris.expofilesystemlegacybundledprverification"
