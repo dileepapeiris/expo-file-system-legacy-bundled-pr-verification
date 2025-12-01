@@ -64,6 +64,23 @@ export default function App() {
           "Android detected — reading directly from bundle (no copy needed)."
         );
       }
+
+      // Read content
+      addLog("Reading file content...");
+      const content = await FileSystem.readAsStringAsync(fileToRead, {
+        encoding: "utf8",
+      });
+
+      addLog(`File Content: ${content}`);
+      addLog("File read successfully!");
+    } catch (error: any) {
+      addLog(`Error: ${error.message}`);
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
   );
 }
