@@ -1,0 +1,3 @@
+Hello! If you are reading this text, the FileSystem native bundle test is working successfully.
+
+Verified by: Dileepa Peiris
